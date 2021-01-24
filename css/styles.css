@@ -1,0 +1,193 @@
+/**************** TAG SELECTOR ****************/
+body {
+  width: 100%;
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-align: center;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: rgba(176,182,254,1);
+  border-width: 6px;
+  width: 5%;
+  margin: 50px auto;
+}
+
+h1 {
+  text-align: center;
+  color: #333333;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 5rem;
+  font-size:8vw;
+}
+h1 span{
+  background-image: linear-gradient(180deg, rgba(110,198,254,0.7), rgba(176,182,254,0.7), rgba(225,171,254,0.7));
+  padding: 1%;
+}
+
+h2 {
+  color:  #D4C6F9;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #D4C6F9;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  color: #40514e;
+  line-height: 2;
+}
+
+a {
+  color: #95D6F9;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #B84EE6;
+}
+
+/**************** CLASS SELECTOR ****************/
+.intro{
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+}
+.description{
+  width: 100%;
+  max-width: 600px;
+  margin: 0px auto 0px auto;
+  text-align: left;
+}
+.description-small{
+  width: 100%;
+  max-width: 600px;
+  margin: 0px auto 0px auto;
+  text-align: left;
+  font-size: 0.7rem;
+}
+.special{
+  width: 100%;
+  max-width: 600px;
+  margin: 0px auto 0px auto;
+  text-align: left;
+  color: #D4C6F9;
+  font-size: 1.7rem;
+
+}
+/**** CONTAINERS*****/
+.top-container {
+  background-color: #ffffff;
+  padding-top: 5%;
+  position: relative;
+  z-index: -1;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.middle-container{
+  position: relative;
+  margin: 50px;
+}
+
+.bottom-container {
+  background-color: #D4C6F9;
+  padding: 30px 0 30px 0;
+  margin-top: 100px;
+}
+/***** END CONTAINERS ****/
+
+/* IMAGES */
+.background {
+  position: absolute;
+  right: 0.5%;
+  top: 0.7%;
+  width: 100%;
+  height: auto;
+  /* transform: rotateZ(20deg); */
+  z-index: -5;
+}
+
+.image1design {
+  width: 25%;
+  float: left;
+  padding-right: 30px;
+}
+
+.image2coding {
+  width: 25%;
+  float: right;
+  padding-left: 30px;
+}
+.image {
+  width: 70%;
+  float: center;
+  padding-bottom: 1.5%;
+}
+/***** END IMAGES ****/
+
+/***** CONTACT ****/
+.contact-me{
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+}
+input[type=text], select, textarea:focus {
+    outline-color: #B84EE6;
+}
+
+/* FORM STYLE *//* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #D4C6F9; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #D4C6F9;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  margin-bottom: 16px;
+}
+
+/* When moving the mouse over the submit button, add a darker #B84EE6 color */
+input[type=submit]:hover {
+  background-color: #B84EE6;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  /* background-color: #f2f2f2; */
+  padding: 20px;
+}
+
+/* END OF FORM STYLE */
+.copyright{
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.bottom {
+  color: #eaf6f6;
+}
